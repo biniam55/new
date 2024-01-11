@@ -13,7 +13,7 @@ function Banner() {
               Math.floor(Math.random() * request.data.results.length)
             ]
           );
-          
+          // console.log(request.data.results)
           return request;
         }
         fetchData();
